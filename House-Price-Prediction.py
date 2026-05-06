@@ -2,7 +2,7 @@
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 
-# Dataset
+# Data
 data = {
     "Size": [1000, 1500, 2000, 2500, 3000],
     "Bedrooms": [2, 3, 3, 4, 4],
@@ -12,16 +12,15 @@ data = {
 # Convert to DataFrame
 df = pd.DataFrame(data)
 
-# Input features
+# In
 X = df[["Size", "Bedrooms"]]
-
-# Output
+#out
 y = df["Price"]
 
 # Create model
 model = LinearRegression()
 
-# Train model
+#train
 model.fit(X, y)
 
 # Predict price
