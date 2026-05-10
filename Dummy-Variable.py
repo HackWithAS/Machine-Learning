@@ -1,6 +1,5 @@
 import pandas as pd
 
-# Dataset
 data = {
     "City": ["Delhi", "Mumbai", "Delhi", "Chennai"]
 }
