@@ -1,4 +1,4 @@
-# Import library
+
 from sklearn.linear_model import LogisticRegression
 
 # Dataset (Hours studied vs Pass/Fail)
